@@ -1,0 +1,411 @@
+body {
+  font-size: 18px;
+}
+
+.subHeading {
+  font-weight: 600;
+  font-size: 1.5rem;
+  line-height: 1.8;
+  font-family: 'Poppins', sans-serif;
+}
+
+.card {
+  box-shadow: 1px 1px 15px hsl(0, 0%, 94%);
+  border-radius: 10px;
+}
+
+img.logoHeader {
+  width: 200px;
+  margin: 40px 0 0 50px;
+}
+
+.topBtn {
+  margin: 40px 50px 0 0;
+  float: right;
+  width: 150px;
+  height: 35px;
+  border: none;
+  border-radius: 20px;
+  background: #fff;
+  font-weight: 700;
+  font-size: 12px;
+  box-shadow: 3px 4px 3px hsl(201, 39%, 93%);
+  font-family: 'Open Sans', sans-serif;
+}
+
+#topSect .row {
+  margin-top: 50px;
+}
+
+img.mockUp {
+  width: 620px;
+  margin-bottom: 50px;
+  margin-left: 100px;
+}
+
+#topSect .right {
+  margin-left: 30px;
+  margin-top: 120px;
+}
+
+#topSect h1 {
+  font-size: 2rem;
+  width: 70%;
+  line-height: 1.5;
+  font-weight: 700;
+  font-family: 'Poppins', sans-serif;
+}
+
+#topSect p {
+  font-size: 15px;
+  width: 85%;
+}
+
+#topSect .headerBtn {
+  width: 180px;
+  height: 35px;
+  background: hsl(322, 100%, 66%);
+  color: #fff;
+  border-radius: 20px;
+  border: none;
+  font-size: 10px;
+  font-weight: bold;
+}
+
+#topSect {
+  background-image: url('images/bg-hero-desktop.svg');
+  background-repeat: no-repeat;
+  background-color: hsl(193, 100%, 96%);
+}
+
+#sectOne {
+  margin: 100px 30px 0 30px;
+}
+
+#sectOne img {
+  width: 400px;
+  margin-left: 180px;
+  padding: 40px 0 30px 0;
+}
+
+#sectOne .sectOneRight {
+  margin: 120px 0 120px 100px;
+}
+
+#sectOne p {
+  width: 90%;
+}
+
+#sectTwo {
+  margin: 30px 30px 0 30px;
+}
+
+#sectTwo img {
+  width: 400px;
+  margin-left: 100px;
+  padding: 50px 0 60px 0;
+}
+
+#sectTwo .sectTwoLeft {
+  margin: 120px 40px 120px 100px;
+}
+
+#sectThree {
+  margin: 30px 30px 0 30px;
+}
+
+#sectThree img {
+  width: 400px;
+  margin-left: 180px;
+  padding: 40px 0 30px 0;
+}
+
+#sectThree .sectThreeRight {
+  margin: 120px 0 120px 100px;
+}
+
+#sectThree p {
+  width: 90%;
+}
+
+.call-to-action {
+  height: 250px;
+  width: 700px;
+  margin: 120px auto;
+  border-radius: 20px;
+  /* box-shadow: 1px 1px 15px hsl(0, 0%, 94%); */
+  background: #fff;
+  position: relative;
+}
+
+.call-to-action:after {
+  content: '';
+  z-index: -1;
+  position: absolute;
+  border-radius: 20px;
+  left: 0;
+  height: 70%;
+  width: 100%;
+  box-shadow: 0px 0px 5px 5px hsl(0, 0%, 94%);
+  top: 0;
+}
+
+.call-to-action h1 {
+  font-weight: 700;
+  font-size: 1.7rem;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.call-to-action button {
+  height: 60px;
+  width: 300px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 14px;
+  background: hsl(322, 100%, 66%);
+  border-radius: 40px;
+  border: none;
+  box-shadow: 1px 4px 6px 1px hsl(180, 10%, 88%);
+  margin: 25px 0 0 200px;
+}
+
+#bottom {
+  background: hsl(192, 100%, 9%);
+  color: #fff;
+  height: 570px;
+  margin-top: -200px;
+  z-index: -1;
+  position: absolute;
+}
+
+.logoCopy {
+  margin-top: 200px;
+  margin-bottom: 40px;
+  margin-left: 36px;
+}
+
+.row {
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+ul {
+  list-style: none;
+}
+
+.ulOne {
+  margin-left: -40px;
+}
+
+.ulOne .liRight {
+  padding-bottom: 20px;
+}
+
+.ulOne img {
+  padding-right: 20px;
+}
+
+.ulMid li {
+  line-height: 2.4;
+}
+
+.socials .fa-facebook-f {
+  padding: 7px 10px 7px 10px;
+  border: 1px solid #fff;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.socials .fa-twitter {
+  padding: 7px 7px 7px 7px;
+  border: 1px solid #fff;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.socials .fa-instagram {
+  padding: 7px 7px 7px 7px;
+  border: 1px solid #fff;
+  border-radius: 50%;
+}
+
+.socials p {
+  font-size: 13px;
+  margin-top: 200px;
+}
+
+footer {
+  margin-top: 500px;
+}
+
+@media (max-width: 500px) {
+  img.logoHeader {
+    width: 130px;
+    margin: 40px 0 0 20px;
+  }
+
+  .topBtn {
+    margin: 40px 30px 0 0;
+    width: 130px;
+    height: 30px;
+  }
+
+  #topSect .row {
+    margin-top: 10px;
+  }
+
+  #topSect h1 {
+    font-size: 2rem;
+    width: 100%;
+    text-align: center;
+  }
+
+  #topSect p {
+    font-size: 22px;
+    width: 100%;
+    text-align: center;
+    margin-top: 40px;
+  }
+
+  #topSect .headerBtn {
+    width: 330px;
+    height: 45px;
+    border-radius: 25px;
+    font-size: 15px;
+    margin-left: 30px;
+    margin-top: 30px;
+  }
+
+  #topSect {
+    background-image: url('images/bg-hero-mobile.svg');
+  }
+
+  img.mockUp {
+    width: 400px;
+    margin: 70px 0 50px 5px;
+  }
+
+  #sectOne {
+    margin: 60px 10px 0 10px;
+  }
+
+  #sectOne img {
+    width: 320px;
+    margin-left: 20px;
+    padding: 50px 0 30px 0;
+  }
+
+  #sectOne .sectOneRight {
+    text-align: center;
+    margin: 50px 20px 50px 20px;
+  }
+
+  #sectOne h2 {
+    margin-right: 50px;
+    font-size: 1.3rem;
+  }
+
+  #sectOne p {
+    font-size: 17px;
+  }
+
+  #sectTwo {
+    margin: 40px 10px 0 10px;
+  }
+
+  #sectTwo img {
+    width: 320px;
+    margin-left: 20px;
+    padding: 50px 0 60px 0;
+  }
+
+  #sectTwo .sectTwoLeft {
+    text-align: center;
+    margin: 30px 15px 50px 20px;
+  }
+
+  #sectTwo h2 {
+    margin-right: 100px;
+    font-size: 1.4rem;
+  }
+
+  #sectTwo p {
+    width: 80%;
+    font-size: 17px;
+  }
+
+  #sectThree {
+    margin: 40px 10px 0 10px;
+  }
+
+  #sectThree img {
+    width: 320px;
+    margin-left: 20px;
+    padding: 60px 0 30px 0;
+  }
+
+  #sectThree .sectThreeRight {
+    text-align: center;
+    margin: 60px 15px 40px 15px;
+  }
+
+  #sectThree h2 {
+    margin-left: -70px;
+    font-size: 1.4rem;
+  }
+
+  #sectThree p {
+    width: 80%;
+    font-size: 18px;
+  }
+
+  .call-to-action {
+    height: 200px;
+    width: 450px;
+    margin: 120px auto;
+    border-radius: 20px;
+  }
+
+  .call-to-action button {
+    height: 42px;
+    width: 230px;
+    font-size: 12px;
+    margin: 25px 0 0 100px;
+  }
+
+  .call-to-action h1 {
+    font-size: 1.5rem;
+  }
+
+  .logoCopy {
+    width: 200px;
+    margin-top: 150px;
+    margin-bottom: 30px;
+    margin-left: 10px;
+  }
+
+  #bottom {
+    height: 870px;
+  }
+
+  .ulOne,
+  .ulMid {
+    margin-left: -60px;
+  }
+
+  .socials {
+    margin-top: 30px;
+    margin-left: 100px;
+  }
+
+  footer {
+    margin-top: 800px;
+  }
+
+  .socials p {
+    margin-top: 20px;
+    margin-left: -60px;
+  }
+}
